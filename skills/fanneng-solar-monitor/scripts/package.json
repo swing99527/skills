@@ -1,0 +1,16 @@
+{
+  "name": "fanneng-solar-monitor",
+  "version": "1.0.0",
+  "description": "泛能网光伏运维后台数据自动采集（无头浏览器版）",
+  "main": "collect.js",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "collect": "node collect.js"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
